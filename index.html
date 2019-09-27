@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='styles/masterstyles.css' rel='stylesheet' type='text/css' />
+  <link href='styles/indexstyles.css' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" href="SlickNav/dist/slicknav.css" />
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+  <title>Project 1</title>
+</head>
+
+<body>
+  <header>
+    <div class='header-name'>
+      <img src='images/uofm.jpg' height='50' alt='UofM' />
+      Mahfuzul Haque
+    </div>
+    <nav>
+      <div class='menu'>
+        <a href="#description">Description</a>
+        <a href="#classes">Classes</a>
+        <a href="#favorites">Favorites</a>
+        <a href='#media'>Media</a>
+        <div class='dropdown'>
+          More
+          <div class='dropdown-items'>
+              <a href='coursepage.html'>Course Webpage</a>
+            <a href="https://www.linkedin.com/in/mahfuzul-haque-124010170/" target='_blank'>LinkedIn</a>
+            <a href="https://github.com/mahfuzul2043" target='_blank'>GitHub</a>
+          </div>
+        </div>
+      </div>
+      <ul id="mobile-menu">
+        <li><a href="#description">Description</a></li>
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#favorites">Favorites</a></li>
+        <li><a href='#media'>Media</a></li>
+        <li>
+          More
+          <ul>
+            <li><a href='coursepage.html'>Course Webpage</a></li>
+            <li><a href="https://www.linkedin.com/in/mahfuzul-haque-124010170/" target='_blank'>LinkedIn</a></li>
+            <li><a href="https://github.com/mahfuzul2043" target='_blank'>GitHub</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class='column-1'>
+      <article id='media'>
+        <h2>Media</h2>
+        <hr />
+        <figure>
+          <img src='images/self-portrait.jpg' alt='Self Portrait' />
+          <figcaption>A picture of myself at Pictured Rocks National Lakeshore</figcaption>
+        </figure>
+        <br />
+        <figure>
+          <img src='images/car.jpg' alt='My Car' />
+          <figcaption>A picture of my car</figcaption>
+        </figure>
+        <br />
+        <figure>
+          <img src='images/campusbuilding.jpg' alt='A Building on Campus' />
+          <figcaption>A picture of one of my school's buildings</figcaption>
+        </figure>
+      </article>
+    </section>
+    <section class='column-2'>
+      <article id='description'>
+        <h2>Description</h2>
+        <hr />
+        <p>
+          My name is Mahfuzul Haque. I'm currently a senior at the Univeristy of Michigan - Dearborn campus. Currently,
+          I'm pursuing a bachelor's degree
+          in software engineering and hope to pursue a master's in the same major right after I graduate. I live in a
+          small city next to Detroit called
+          Hamtramck.
+        </p>
+        <p>
+          In terms of employment, I'm currently working in a company called Darena Solutions as a software developer. I
+          previously worked in a company
+          called Nemo Capital Partners (now Nemo Health) as a software developer/IT intern. Unrelated to my field, I
+          worked as an electronics sales
+          associate in Target and a valet attendant at All Time Parking.
+        </p>
+      </article>
+      <article id='classes'>
+        <h2>Classes</h2>
+        <hr />
+        <ul>
+          <li>
+            <a href='coursepage.html'><span class='bold'>CIS 435 - Web Design</span></a>
+            <ul>
+              <li>
+                This course deals with the study of technologies used to design and implement multimedia web sites.
+                Topics
+                include web servers, HTML, CGI, scripting languages, Java applets, back-end database connectivity, web
+                security, multimedia, XML. (F,W).
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class='bold'>CIS 400 - Programming Languages</span>
+            <ul>
+              <li>
+                This course is concerned with the systematic study of programming languages with regard to their
+                implementation, structure, and use. Languages are compared with regard to their various data types, data
+                structures, operations, sequence control mechanism, data control facilities, programming environments,
+                and
+                ease of use in various programming problems. Students are assumed to have substantial experience with at
+                least one high level language and some familiarity with assembly language programming.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class='bold'>CIS 296 - Java Programming</span>
+            <ul>
+              <li>
+                Course covers Java Programming language, focusing on GUI development, distributed computing,and network
+                applications.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class='bold'>CIS 495 - Senior Design</span>
+            <ul>
+              <li>
+                This course deals with practicalsoftware engineering principles and professional practice issues.
+                Purpose
+                of course is to givestudents the opportunity to sharpen their software analysis and client
+                communications
+                skills. Students will work with real-world clients and takeasoftware project fromconception to delivery
+                of
+                the product to the client. Classroom activities focus on student directed discussions of current
+                professionand ethicsissues,and presentations based on project milestones.This course isthe first
+                semester
+                ofan 8-month capstone experience. Students taking this coursemust take CIS 4952/4962/4972in Winter 2020.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class='bold'>OB 354 - Organizational Behavior</span>
+            <ul>
+              <li>
+                In this course, students willstudy the nature and dynamics of behavior within organizations from an open
+                system theory viewpoint, emphasizingdeterminants and consequences of individual, interpersonal, small
+                group and intergroup behavior. Group discussions and role-playing techniques will be used to develop
+                leadership skills and methods and to foster understanding of applied problems in organizational
+                behavior.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </article>
+      <article id='favorites'>
+        <h2>Favorites (Movies)</h2>
+        <hr />
+        <div class='movie-left'>
+          <img src='images/interstellar.jpg' alt='Interstellar Movie Poster' />
+          <a href='https://www.imdb.com/title/tt0816692/?ref_=nv_sr_1?ref_=nv_sr_1' target='_blank'>
+            <span class='bold'>1. Interstellar</span>
+          </a>
+          <p>
+            Interstellar is a 2014 American science fiction film directed and produced by Christopher Nolan. It stars
+            Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Ellen Burstyn, and Michael Caine. Set in a
+            dystopian future where humanity is struggling to survive, the film follows a group of astronauts who travel
+            through a wormhole near Saturn in search of a new home for humanity.
+          </p>
+          <p>
+            Brothers Christopher and Jonathan Nolan wrote the screenplay, which had its origins in a script Jonathan
+            developed in 2007. Christopher co-produced Interstellar with his wife, Emma Thomas, through their production
+            company Syncopy, and with Lynda Obst through Lynda Obst Productions. Caltech theoretical physicist Kip
+            Thorne
+            was an executive producer, acted as scientific consultant, and wrote a tie-in book, The Science of
+            Interstellar.
+            Paramount Pictures, Warner Bros., and Legendary Pictures co-financed the film. Cinematographer Hoyte van
+            Hoytema
+            shot it on 35 mm in anamorphic format and IMAX 70 mm. Principal photography began in late 2013 and took
+            place
+            in
+            Alberta (Canada), Iceland and Los Angeles. Interstellar uses extensive practical and miniature effects and
+            the
+            company Double Negative created additional digital effects.
+          </p>
+          <p>
+            Interstellar premiered on October 26, 2014, in Los Angeles, California. In the United States, it was first
+            released on film stock, expanding to venues using digital projectors. The film had a worldwide gross of over
+            $677 million, making it the tenth-highest-grossing film of 2014. Interstellar received critical praise for
+            its
+            themes, visual effects, musical score, and acting. At the 87th Academy Awards, the film won the Academy
+            Award
+            for Best Visual Effects, and was nominated for Best Original Score, Best Sound Mixing, Best Sound Editing
+            and
+            Best Production Design.
+          </p>
+        </div>
+        <br />
+        <div class='movie-right'>
+          <img src='images/avengers.jpg' alt='Avengers Movie Poster' />
+          <a href='https://www.imdb.com/title/tt4154796/?ref_=nv_sr_1?ref_=nv_sr_1' target='_blank'>
+            <span class="bold">2. Avengers: Endgame</span>
+          </a>
+          <p>
+            Avengers: Endgame is a 2019 American superhero film based on the Marvel Comics superhero team the Avengers,
+            produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. It is the sequel to
+            2012's
+            The Avengers, 2015's Avengers: Age of Ultron, and 2018's Avengers: Infinity War, and the twenty-second film
+            in
+            the Marvel Cinematic Universe (MCU). It was directed by Anthony and Joe Russo and written by Christopher
+            Markus
+            and Stephen McFeely, and features an ensemble cast including Robert Downey Jr., Chris Evans, Mark Ruffalo,
+            Chris
+            Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai
+            Gurira,
+            Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, and Josh Brolin. In the film, the surviving
+            members
+            of the Avengers and their allies attempt to reverse the damage caused by Thanos in Infinity War.
+          </p>
+          <p>
+            The film was announced in October 2014 as Avengers: Infinity War – Part 2. The Russo brothers came on board
+            to
+            direct in April 2015, and by May, Markus and McFeely signed on to write the script for the film. In July
+            2016,
+            Marvel removed the film's title, and it remained untitled until its official title was revealed in December
+            2018. Filming began in August 2017 at Pinewood Atlanta Studios in Fayette County, Georgia, shooting
+            back-to-back
+            with Infinity War, and ended in January 2018. Additional filming took place in the Metro and Downtown
+            Atlanta
+            areas, New York, and Scotland. With an estimated budget of $356 million, it is one of the most expensive
+            films
+            ever made.
+          </p>
+          <p>
+            Avengers: Endgame was widely anticipated, and Disney backed the film with extensive marketing campaigns. It
+            premiered in Los Angeles on April 22, 2019, and was theatrically released in the United States on April 26,
+            2019, in IMAX and 3D. The film received praise for its direction, acting, musical score, action sequences,
+            visual effects, and emotional weight, with critics lauding its culmination of the 22-film story. It grossed
+            nearly $2.8 billion worldwide, surpassing Infinity War's entire theatrical run in just eleven days and
+            breaking
+            numerous box office records, including becoming the highest-grossing film of all time, overtaking 2009's
+            Avatar.
+          </p>
+        </div>
+        <br />
+        <div class='movie-left'>
+          <img src="images/batman.jpg" alt='Batman Movie Poster' />
+          <a href='https://www.imdb.com/title/tt0468569/?ref_=nv_sr_3?ref_=nv_sr_3' target='_blank'>
+            <span class='bold'>3. Batman: The Dark Knight</span>
+          </a>
+          <p>
+            The Dark Knight is a 2008 superhero film directed, co-produced, and co-written by Christopher Nolan. Based
+            on
+            the DC Comics character Batman, the film is the second installment of Nolan's The Dark Knight Trilogy and a
+            sequel to 2005's Batman Begins, starring Christian Bale and supported by Michael Caine, Heath Ledger, Gary
+            Oldman, Aaron Eckhart, Maggie Gyllenhaal, and Morgan Freeman. In the film, Bruce Wayne / Batman (Bale),
+            Police
+            Lieutenant James Gordon (Oldman) and District Attorney Harvey Dent (Eckhart) form an alliance to dismantle
+            organized crime in Gotham City, but are menaced by an anarchistic mastermind known as the Joker (Ledger),
+            who
+            seeks to undermine Batman's influence and turn the city to chaos.
+          </p>
+          <p>
+            Nolan's inspiration for the film was the Joker's comic book debut in 1940, the 1988 graphic novel The
+            Killing
+            Joke, and the 1996 series The Long Halloween, which retold Harvey Dent's origin. The "Dark Knight" nickname
+            was
+            first applied to Batman in Batman #1 (1940), in a story written by Bill Finger.[4][5] The Dark Knight was
+            filmed
+            primarily in Chicago, as well as in several other locations in the United States, the United Kingdom, and
+            Hong
+            Kong. Nolan used IMAX 70 mm film cameras to film some sequences, including the Joker's first appearance in
+            the
+            film. Warner Bros. initially created a viral marketing campaign for The Dark Knight, developing promotional
+            websites and trailers highlighting screenshots of Ledger as the Joker. Ledger died on January 22, 2008, some
+            months after he completed filming and six months before the film's release from a toxic combination of
+            prescription drugs, leading to intense attention from the press and movie-going public.
+          </p>
+          <p>
+            A co-production of the United States and the United Kingdom, The Dark Knight was released on July 18, 2008
+            in
+            the United States and on July 25, 2008 in the United Kingdom. Film critics considered it one of the best
+            films
+            of its decade and one of the best superhero films of all time;[6][7] the film received highly positive
+            reviews,
+            particularly for its action, score, screenplay, performances (particularly Ledger's), visual effects, and
+            direction, setting numerous records during its theatrical run.[8] The Dark Knight appeared on 287 critics'
+            top
+            ten lists, more than any other film of 2008 with the exception of WALL-E, and more critics (77) named The
+            Dark
+            Knight the best film released that year.[9] With over $1 billion in revenue worldwide, it became the
+            highest-grossing film of 2008 and is the 43rd highest-grossing film of all time, unadjusted for inflation
+            (4th
+            at the time of release); it also set the record for highest-grossing domestic opening with $158 million, a
+            record it held for three years.[10] The film received eight Academy Award nominations; it won the award for
+            Best
+            Sound Editing and Ledger was posthumously awarded Best Supporting Actor.[11] In 2016 it was voted 33rd among
+            100
+            films considered the best of the 21st century by 117 film critics from around the world.[12] The Dark Knight
+            Rises, the final film in the trilogy, was released on July 20, 2012.
+          </p>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+    Copyright &copy; Mahfuzul Haque
+    <br />
+    University of Michigan - Dearborn
+  </footer>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="SlickNav/dist/jquery.slicknav.js"></script>
+  <script>
+    $(function () {
+      $('#mobile-menu').slicknav();
+    });
+  </script>
+</body>
+
+</html>

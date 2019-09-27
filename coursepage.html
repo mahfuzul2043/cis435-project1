@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='styles/masterstyles.css' rel='stylesheet' type='text/css' />
+    <link href='styles/coursewebpagestyles.css' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="SlickNav/dist/slicknav.css" />
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <title>Project 1</title>
+</head>
+
+<body>
+    <header>
+        <div class='header-name'>
+            <img src='images/uofm.jpg' height='50' alt='UofM' />
+            CIS 435 Webpage
+        </div>
+        <nav>
+            <div class='menu'>
+                <a href="#course-description">Description</a>
+                <a href='#objectives'>Objectives</a>
+                <a href="#required-materials">Materials</a>
+                <a href="#grading">Grading</a>
+                <a href='#course-outline'>Course Outline</a>
+                <a href='#media'>Media</a>
+            </div>
+            <ul id="mobile-menu">
+                <li><a href="#course-description">Description</a></li>
+                <li><a href='#objectives'>Objectives</a></li>
+                <li><a href="#required-materials">Materials</a></li>
+                <li><a href="#grading">Grading</a></li>
+                <li><a href='#course-outline'>Course Outline</a></li>
+                <li><a href='#media'>Media</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class='column-1'>
+            <article id='media'>
+                <h2>Media</h2>
+                <hr />
+                <figure>
+                    <a href='https://www.w3schools.com' target='_blank'>
+                        <img src='images/w3schools.jpg' alt='W3schools' />
+                    </a>
+                    <figcaption>
+                        Good resource for learning web development and quick referencing purposes.
+                        Recommended for beginners.
+                    </figcaption>
+                </figure>
+                <br />
+                <figure>
+                    <a href='https://developer.mozilla.org' target='_blank'>
+                        <img src='images/mdn.jpg' alt='Mozilla Developer Network Web Docs' />
+                    </a>
+                    <figcaption>
+                        Recommended for developers who want more in depth details about web
+                        development concepts.
+                    </figcaption>
+                </figure>
+                <br />
+                <figure>
+                    <a href='https://aws.amazon.com/education/awseducate' target='_blank'>
+                        <img src='images/aws.jpg' alt='Amazon Web Service Educate' />
+                    </a>
+                    <figcaption>
+                        Recommended for students with a umich email domain to host files
+                        on the cloud.
+                    </figcaption>
+                </figure>
+                <br />
+                <figure>
+                    <a
+                        href='http://93.174.95.29/main/1124000/a8cbdaa1f8e93ddf5b7e65c9139bee4e/Zak%20Ruvalcaba%2C%20Mike%20Murach%20-%20Murach%27s%20JavaScript%20and%20jQuery-Mike%20Murach%20%26%20Associates%20%282012%29.pdf'>
+                        <img src='images/javascript-textbook.jpg' alt="Murach's Javascript Textbook" />
+                    </a>
+                    <figcaption>
+                        Link to download JavaScript required textbook.
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a
+                        href='http://93.174.95.29/main/908000/b2971b64902b500dbf88a613078771d4/%28Murach_%20Training%20%26%20Reference%29%20Joel%20Murach%2C%20Ray%20Harris%20-%20Murach%E2%80%99s%20PHP%20and%20MySQL-Mike%20Murach%20%26%20Associates%20%282010%29.pdf'>
+                        <img src='images/php-textbook.jpg' alt="Murach's PHP and MySql Textbook" />
+                    </a>
+                    <figcaption>
+                        Link to download PHP required textbook.
+                    </figcaption>
+                </figure>
+            </article>
+        </section>
+        <section class='column-2'>
+            <article id='course-description'>
+                <h2>Course Description</h2>
+                <hr />
+                <p>The study of technologies used to design and implement web-based applications. Topics include HTML,
+                    CSS, JavaScript, PHP, Rich Internet Application technologies (AJAX), web servers, back-end database
+                    connectivity (MySQL), web security, multimedia, XML, JSON, and web services.</p>
+                <span class='bold'>Prerequisites:</span> previous
+                or concurrent enrollment in CIS 375 or CIS553 or equivalent.
+            </article>
+            <article id='objectives'>
+                <h2>Objectives</h2>
+                <hr>
+                <ul>
+                    <li>An ability to assess the quality of web applications </li>
+                    <li>An ability to create and execute test cases for web applications</li>
+                    <li>An ability to create UML diagrams as part of the analysis model for a web application</li>
+                    <li>An ability to analyze a computerized solution to a real-world problem</li>
+                    <li>An ability to design a computerized solution to a real-world problem</li>
+                    <li>An ability to use software tools and specialized web development environments to implement the
+                        solution to a real-world problem</li>
+                </ul>
+            </article>
+            <article id='required-materials'>
+                <h2>Required Materials</h2>
+                <hr />
+                <span class='bold'>Required Textbooks</span>
+                <ul>
+                    <li>Murach’s JavaScript and jQuery (3rd Edition), by Mary Delamater and Zak Ruvalcaba, 2017, ISBN
+                        978-1-943872-05-3. </li>
+                    <li>Murach’s PHP and MySQL (3rd Edition), by Joel Murach and Ray Harris, 2017, ISBN 9781943872381
+                    </li>
+                </ul>
+                <span class='bold'>References</span>
+                <ul>
+                    <li>Murach’s HTML5 and CSS3 (4th Edition), by Zak Ruvalcaba and Anne Boehm, 2018, ISBN 9781943872268
+                    </li>
+                </ul>
+            </article>
+            <article id='grading'>
+                <h2>Grading</h2>
+                <hr />
+                <div>
+                    <div>
+                        <table class='grade-table'>
+                            <thead>
+                                <tr>
+                                    <th>Percentage</th>
+                                    <th>Letter Grade</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>97-100%</td>
+                                    <td>A+</td>
+                                </tr>
+                                <tr>
+                                    <td>90-97%</td>
+                                    <td>A</td>
+                                </tr>
+                                <tr>
+                                    <td>87-90%</td>
+                                    <td>A-</td>
+                                </tr>
+                                <tr>
+                                    <td>84-87%</td>
+                                    <td>B+</td>
+                                </tr>
+                                <tr>
+                                    <td>80-84%</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr>
+                                    <td>77-80%</td>
+                                    <td>B-</td>
+                                </tr>
+                                <tr>
+                                    <td>74-77%</td>
+                                    <td>C+</td>
+                                </tr>
+                                <tr>
+                                    <td>70-74%</td>
+                                    <td>C</td>
+                                </tr>
+                                <tr>
+                                    <td>67-70%</td>
+                                    <td>C-</td>
+                                </tr>
+                                <tr>
+                                    <td>64-67%</td>
+                                    <td>D+</td>
+                                </tr>
+                                <tr>
+                                    <td>60-64%</td>
+                                    <td>D</td>
+                                </tr>
+                                <tr>
+                                    <td>55-60%</td>
+                                    <td>D-</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class='grade-distribution'>
+                        <div>
+                            <span class='bold'>Undergraduate (CIS 435)</span>
+                            <ul>
+                                <li>Mini Projects: 25%</li>
+                                <li>Term Project: 35%</li>
+                                <li>Class Participation: 5%</li>
+                                <li>Exam: 35%</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <span class='bold'>Graduate (CIS 525)</span>
+                            <ul>
+                                <li>Mini Projects: 25%</li>
+                                <li>Term Project: 35%</li>
+                                <li>Web 2.0/3.0 Report: 5%</li>
+                                <li>Exam: 35%</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article id='course-outline'>
+                <h2>Course Outline</h2>
+                <hr />
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Activity and Content</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Week 1 -- 9/5</td>
+                            <td>Introduction of Web Technology</td>
+                        </tr>
+                        <tr>
+                            <td>Week 2 -- 9/12</td>
+                            <td>HTML 5 and CSS</td>
+                        </tr>
+                        <tr>
+                            <td>Week 3 -- 9/19</td>
+                            <td>HTML 5</td>
+                        </tr>
+                        <tr>
+                            <td>Week 4 -- 9/26</td>
+                            <td>JavaScript, JSON, jQuery</td>
+                        </tr>
+                        <tr>
+                            <td>Week 5 -- 10/3</td>
+                            <td class='bold'>Term Project Proposal Presentation</td>
+                        </tr>
+                        <tr>
+                            <td>Week 6 -- 10/10</td>
+                            <td>jQuery, AJAX</td>
+                        </tr>
+                        <tr>
+                            <td>Week 7 -- 10/17</td>
+                            <td>Web servers (Apache), Backend Database Processing: MySQL</td>
+                        </tr>
+                        <tr>
+                            <td>Week 8 -- 10/24</td>
+                            <td>PHP</td>
+                        </tr>
+                        <tr>
+                            <td>Week 9 -- 10/31</td>
+                            <td>PHP Sessions</td>
+                        </tr>
+                        <tr>
+                            <td>Week 10 -- 11/7</td>
+                            <td>Node.js</td>
+                        </tr>
+                        <tr>
+                            <td>Week 11 -- 11/14</td>
+                            <td>Angular or React</td>
+                        </tr>
+                        <tr>
+                            <td>Week 12 -- 11/21</td>
+                            <td> HTTPS, Web security</td>
+                        </tr>
+                        <tr>
+                            <td>Week 13 -- 11/28</td>
+                            <td><i>Thanksgiving recess (no class)</i></td>
+                        </tr>
+                        <tr>
+                            <td>Week 14 -- 12/5</td>
+                            <td>Term project presentation and demonstration</td>
+                        </tr>
+                        <tr>
+                            <td>Week 15 -- 12/12</td>
+                            <td class='bold'>Final Exam (6:30PM - 9:00PM)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Copyright &copy; Mahfuzul Haque
+        <br />
+        University of Michigan - Dearborn
+    </footer>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="SlickNav/dist/jquery.slicknav.js"></script>
+    <script>
+        $(function () {
+            $('#mobile-menu').slicknav();
+        });
+    </script>
+</body>
+
+</html>

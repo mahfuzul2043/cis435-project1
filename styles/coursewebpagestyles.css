@@ -1,0 +1,48 @@
+#grading > div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #grading > div > div {
+    margin: 10px 10px;
+  }
+  
+  table, td, th {
+    border: 1px solid black;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    text-align: left;
+  }
+  
+  td, th {
+    padding: 10px;
+  }
+  
+  .grade-distribution {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #course-outline {
+    margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 995px) {
+    .header-name {
+      padding: 20px;
+    }
+  
+      .menu {
+          display:none;
+      }
+      
+      .js .slicknav_menu {
+          display:block;
+      }
+  }

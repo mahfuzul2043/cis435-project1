@@ -1,0 +1,44 @@
+.menu {
+  margin-right: 72px;
+}
+
+.dropdown {
+  cursor: pointer;
+  position: relative;
+}
+
+.dropdown-items {
+  display: none;
+  position: absolute;
+  background-color: #00274C;
+}
+
+.dropdown:hover .dropdown-items {
+  display: block;
+}
+
+.movie-left img {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.movie-right img {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  float: right;
+}
+
+@media screen and (max-width: 825px) {
+  .header-name {
+    padding: 20px;
+  }
+
+    .menu {
+        display:none;
+    }
+    
+    .js .slicknav_menu {
+        display:block;
+    }
+}

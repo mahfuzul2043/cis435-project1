@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+  }
+  
+  p {
+    text-indent: 40px;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    background-color: #00274C;
+    color: white;
+  }
+  
+  .header-name {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-name img {
+    margin-right: 20px;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+  .menu a, .menu a:visited, .menu a:link {
+    color: white;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  
+  #mobile-menu {
+    display: none;
+  }
+  
+  .slicknav_menu {
+      display:none;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  main {
+    display: flex;
+  }
+  
+  .column-1 {
+    width: 380px;
+  }
+  
+  .column-1 img {
+    width: 300px;
+  }
+  
+  section {
+    margin: 0 5px;
+  }
+  
+  footer {
+    background-color: #00274C;
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    main {
+      flex-direction: column-reverse;
+      padding: 20px;
+    }
+  
+    .column-1 {
+      width: 100%;
+    }
+  }
