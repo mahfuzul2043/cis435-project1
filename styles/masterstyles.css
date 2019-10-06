@@ -4,6 +4,15 @@ html, body {
     box-sizing: border-box;
     font-family: Arial;
   }
+
+  html {
+    height: 100%;
+  }
+
+  body {
+    position: relative;
+    min-height: 100%;
+  }
   
   p {
     text-indent: 40px;
@@ -62,6 +71,7 @@ html, body {
   
   main {
     display: flex;
+    padding-bottom: 77px;
   }
   
   .column-1 {
@@ -81,6 +91,9 @@ html, body {
     text-align: center;
     color: white;
     padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 40px);
   }
   
   @media screen and (max-width: 650px) {
